@@ -1,22 +1,16 @@
 :root {
 	--twitter-clr: #50b7f5;
+	--twitter-bg: #e6ecf0;
 	/* TRANSITIONS */
 	--sht-trans: all 200ms ease-in-out;
 	--med-trans: all 0.5s ease-in-out;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
-.flexed {
+.App {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.flex-col {
-	display: flex;
-	flex-direction: column;
+	height: 100vhh;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 10px;
 }
