@@ -1,4 +1,5 @@
 :root {
+	--twitter-clr: #50b7f5;
 	/* TRANSITIONS */
 	--sht-trans: all 200ms ease-in-out;
 	--med-trans: all 0.5s ease-in-out;
