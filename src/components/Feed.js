@@ -1,5 +1,6 @@
 import React from "react";
 import "./Feed.css";
+import Post from "./Post";
 import TweetBox from "./TweetBox";
 
 function Feed() {
@@ -8,8 +9,8 @@ function Feed() {
 			<div className="feed__header">
 				<h2>HOME</h2>
 			</div>
-
 			<TweetBox />
+			<Post />
 		</div>
 	);
 }
