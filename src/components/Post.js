@@ -21,14 +21,14 @@ function Post({
 	return (
 		<div className="post">
 			<div className="post__avatar">
-				<Avatar src="/images/stacie.jpg" />
+				<Avatar src="/images/user.jpg" />
 			</div>
 
 			<div className="post__body">
 				<div className="post__header">
 					<div className="post__headerText">
 						<h3>
-							Ayo Abimbola
+							Ayo Abimbola&nbsp;
 							<span className="post__headerSpecial">
 								<VerifiedUser className="post__badge" /> @ayotheinspired
 							</span>
@@ -38,7 +38,7 @@ function Post({
 						<p>Here's a unique Twitter clone with React.</p>
 					</div>
 				</div>
-				<img src="/images/chris.jpg" width="350" alt="" />
+				<img src="/images/chris.jpg" width="400" alt="" />
 
 				<div className="post__footer">
 					<ChatBubbleOutline fontSize="small" />
