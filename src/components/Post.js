@@ -21,24 +21,25 @@ function Post({
 	return (
 		<div className="post">
 			<div className="post__avatar">
-				<Avatar src="/images/user.jpg" />
+				<Avatar src={avatar} />
 			</div>
 
 			<div className="post__body">
 				<div className="post__header">
 					<div className="post__headerText">
 						<h3>
-							Ayo Abimbola&nbsp;
+							{displayName}&nbsp;
 							<span className="post__headerSpecial">
-								<VerifiedUser className="post__badge" /> @ayotheinspired
+								{verified && <VerifiedUser className="post__badge" />} @
+								{username}
 							</span>
 						</h3>
 					</div>
 					<div className="post__headerDescription">
-						<p>Here's a unique Twitter clone with React.</p>
+						<p> {text} </p>
 					</div>
 				</div>
-				<img src="/images/chris.jpg" width="400" alt="" />
+				<img src={image} width="400" alt="" />
 
 				<div className="post__footer">
 					<ChatBubbleOutline fontSize="small" />

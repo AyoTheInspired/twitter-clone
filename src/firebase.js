@@ -1,3 +1,5 @@
+import firebase from "firebase";
+
 const firebaseConfig = {
 	apiKey: "AIzaSyAeHHy2_csFe3xxnRZYgMdgZD-MXwui6xs",
 	authDomain: "twitter-clone-d0964.firebaseapp.com",
@@ -7,3 +9,9 @@ const firebaseConfig = {
 	appId: "1:861500914871:web:98fae0fee8b82d82d2a132",
 	measurementId: "G-PVSDP4L3TH",
 };
+
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebaseApp.firestore();
+
+export default db;

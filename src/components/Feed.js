@@ -10,7 +10,14 @@ function Feed() {
 				<h2>HOME</h2>
 			</div>
 			<TweetBox />
-			<Post />
+			<Post
+				displayName="Ayo Abimbola"
+				username="ayotheinspired"
+				verified
+				text="The Very First Test Tweet"
+				avatar="/images/user.jpg"
+				image="/images/stacie.jpg"
+			/>
 			{/* <Post />
 			<Post />
 			<Post /> */}
