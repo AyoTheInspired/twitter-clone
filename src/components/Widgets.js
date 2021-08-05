@@ -25,6 +25,14 @@ function Widgets() {
 					screenName="ayotheinspired"
 					options={{ height: 400 }}
 				/>
+
+				<TwitterShareButton
+					url={"https://www.facebook.com/ayotheinspired"}
+					options={{
+						text: "always keep going",
+						via: "ayotheinspired",
+					}}
+				/>
 			</div>
 		</div>
 	);
