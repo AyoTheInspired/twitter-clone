@@ -15,10 +15,10 @@ function Widgets() {
 				<input type="text" placeholder="Search Twitter" />
 			</div>
 
-			<div className="widgets__widged">
-				<h2>What's Happening Here</h2>
+			<div className="widgets__widgetContainer">
+				<h2>What's Happening</h2>
 
-				<TwitterTweetEmbed tweetId={"858551177860055040"} />
+				<TwitterTweetEmbed tweetId={"921798749063729154"} />
 
 				<TwitterTimelineEmbed
 					sourceType="profile"
