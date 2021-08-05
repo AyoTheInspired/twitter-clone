@@ -7,8 +7,8 @@ import Widgets from "./components/Widgets";
 function App() {
 	return (
 		<div className="App">
-			{/* <Sidebar /> */}
-			{/* <Feed /> */}
+			<Sidebar />
+			<Feed />
 			<Widgets />
 		</div>
 	);
