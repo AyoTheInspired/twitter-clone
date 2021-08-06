@@ -30,10 +30,6 @@ function Feed() {
 					image={post.image}
 				/>
 			))}
-
-			{/* <Post />
-			<Post />
-			<Post /> */}
 		</div>
 	);
 }
